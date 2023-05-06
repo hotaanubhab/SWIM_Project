@@ -40,7 +40,7 @@ app.use(fileUpload({
 }));
 
 app.use("/api", require("./routes/api"));
-app.use("/s3", require("./routes/s3"));
+
 app.use("/detect", require("./routes/detect"));
 
 function onListening() {
